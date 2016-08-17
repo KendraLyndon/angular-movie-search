@@ -1,0 +1,7 @@
+
+<h3 ng-if="view.errors">{{view.errors}}</h3>
+<div ng-repeat="movie in movies">
+  <p>
+    <a ng-href='/show/{{movie.imdbID}}'>{{movie.Title}}</a>
+  </p>
+</div>
